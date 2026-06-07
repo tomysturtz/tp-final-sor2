@@ -1,0 +1,8 @@
+Log,Riesgo,Justificacion,Tiempo Respuesta (s),Modelo
+"type=USER_AUTH msg=audit(1777582513.595:104): uid=0 auid=4294967295 exe=""/usr/sbin/sshd""",INFO,"Actividad de proceso SSH no crítica, sin indicadores de seguridad.",9.62,phi3:mini
+"type=USER_AUTH msg=audit(1779047556.068:96): uid=0 auid=4294967295 exe=""/usr/bin/login""",INFO,Actividad normal de autenticación.,4.1,phi3:mini
+"type=USER_AUTH msg=audit(1779749365.412:1077): uid=1001 auid=1001 exe=""/usr/bin/sudo""",MEDIO,"Intento de ejecución del comando sudo por parte de un usuario, potencial indicador de intento fallido o malicioso.",5.95,phi3:mini
+"type=USER_CMD msg=audit(1779749376.304:1087): uid=1001 auid=1001 exe=""/usr/bin/sudo""",MEDIO,"El usuario con ID de root (uid=0) intentó usar 'sudo' para ejecutar un comando, lo cual es una actividad administrativa normal pero poten0rmente peligrosa.",7.7,phi3:mini
+"type=USER_CMD msg=audit(1779749428.424:1101): uid=1001 auid=1001 exe=""/usr/bin/sudo""",MEDIO,"Uso de sudo para ejecutar comandos por parte del usuario con ID 1001, lo cual podría indicar un intento potensionalmente peligroso si se requiere privilegios elevados.",7.44,phi3:mini
+"type=USER_AUTH msg=audit(1779749506.908:1108): uid=1001 auid=1001 exe=""/usr/bin/su""",MEDIO,"Intento de cambio de usuario por parte del mismo, lo cual podría indicar intento de escalada o comportamiento anómalo.",6.12,phi3:mini
+"type=USER_CMD msg=audit(1779749624.856:1122): uid=1001 auid=1001 exe=""/usr/bin/sudo""",MEDIO,"Uso de sudo por un usuario, que indica potencial intento o uso previo exitoso de privilegios elevados.",5.89,phi3:mini

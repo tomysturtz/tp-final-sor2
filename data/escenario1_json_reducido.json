@@ -1,0 +1,805 @@
+[
+    {
+        "auid": "1000",
+        "key": "passwd_changes",
+        "type": "CONFIG_CHANGE"
+    },
+    {
+        "syscall": "44",
+        "success": "yes",
+        "exit": "1084",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "auditctl",
+        "exe": "/usr/sbin/auditctl",
+        "key": "(null)",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "6",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "cat",
+        "exe": "/usr/bin/cat",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "tail",
+        "exe": "/usr/bin/tail",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "grep",
+        "exe": "/usr/bin/grep",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "6",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    }
+]

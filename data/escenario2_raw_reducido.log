@@ -1,0 +1,7 @@
+type=USER_AUTH msg=audit(1777582513.595:104): uid=0 auid=4294967295 exe="/usr/sbin/sshd"
+type=USER_AUTH msg=audit(1779047556.068:96): uid=0 auid=4294967295 exe="/usr/bin/login"
+type=USER_AUTH msg=audit(1779749365.412:1077): uid=1001 auid=1001 exe="/usr/bin/sudo"
+type=USER_CMD msg=audit(1779749376.304:1087): uid=1001 auid=1001 exe="/usr/bin/sudo"
+type=USER_CMD msg=audit(1779749428.424:1101): uid=1001 auid=1001 exe="/usr/bin/sudo"
+type=USER_AUTH msg=audit(1779749506.908:1108): uid=1001 auid=1001 exe="/usr/bin/su"
+type=USER_CMD msg=audit(1779749624.856:1122): uid=1001 auid=1001 exe="/usr/bin/sudo"

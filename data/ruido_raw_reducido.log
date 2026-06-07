@@ -1,0 +1,475 @@
+type=SYSCALL msg=audit(1779892548.360:698): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="xdelta3" exe="/snap/snapd/21759/usr/bin/xdelta3" key="root_commands"
+type=EXECVE msg=audit(1779892548.360:698):
+type=CWD msg=audit(1779892548.360:698):
+type=PATH msg=audit(1779892548.360:698): name="/snap/snapd/current/usr/bin/xdelta3"
+type=PATH msg=audit(1779892548.360:698): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892548.360:698):
+type=SYSCALL msg=audit(1779892626.852:699): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892626.852:699):
+type=PATH msg=audit(1779892626.852:699): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892626.852:699):
+type=SYSCALL msg=audit(1779892646.164:700): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892646.164:700):
+type=PATH msg=audit(1779892646.164:700): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892646.164:700):
+type=SYSCALL msg=audit(1779892701.724:701): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892701.724:701):
+type=PATH msg=audit(1779892701.724:701): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892701.724:701):
+type=SYSCALL msg=audit(1779892704.184:702): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892704.184:702):
+type=PATH msg=audit(1779892704.184:702): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892704.184:702):
+type=SYSCALL msg=audit(1779892766.428:703): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892766.428:703):
+type=PATH msg=audit(1779892766.428:703): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892766.428:703):
+type=SYSCALL msg=audit(1779892845.052:704): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="root_commands"
+type=EXECVE msg=audit(1779892845.052:704):
+type=CWD msg=audit(1779892845.052:704):
+type=PATH msg=audit(1779892845.052:704): name="/usr/bin/systemd-tmpfiles"
+type=PATH msg=audit(1779892845.052:704): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892845.052:704):
+type=SYSCALL msg=audit(1779892845.056:705): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.056:705):
+type=PATH msg=audit(1779892845.056:705): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.056:705):
+type=SYSCALL msg=audit(1779892845.064:706): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:706):
+type=PATH msg=audit(1779892845.064:706): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:706):
+type=SYSCALL msg=audit(1779892845.064:707): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:707):
+type=PATH msg=audit(1779892845.064:707): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:707):
+type=SYSCALL msg=audit(1779892845.064:708): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:708):
+type=PATH msg=audit(1779892845.064:708): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:708):
+type=SYSCALL msg=audit(1779892845.064:709): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:709):
+type=PATH msg=audit(1779892845.064:709): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:709):
+type=SYSCALL msg=audit(1779892845.064:710): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:710):
+type=PATH msg=audit(1779892845.064:710): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:710):
+type=SYSCALL msg=audit(1779892845.064:711): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:711):
+type=PATH msg=audit(1779892845.064:711): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:711):
+type=SYSCALL msg=audit(1779892845.064:712): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:712):
+type=PATH msg=audit(1779892845.064:712): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:712):
+type=SYSCALL msg=audit(1779892845.064:713): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:713):
+type=PATH msg=audit(1779892845.064:713): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:713):
+type=SYSCALL msg=audit(1779892845.064:714): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:714):
+type=PATH msg=audit(1779892845.064:714): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:714):
+type=SYSCALL msg=audit(1779892845.064:715): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="systemd-tmpfile" exe="/usr/bin/systemd-tmpfiles" key="passwd_changes"
+type=CWD msg=audit(1779892845.064:715):
+type=PATH msg=audit(1779892845.064:715): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892845.064:715):
+type=SERVICE_START msg=audit(1779892845.072:716): uid=0 auid=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SERVICE_STOP msg=audit(1779892845.072:717): uid=0 auid=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SYSCALL msg=audit(1779892867.236:718): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892867.236:718):
+type=PATH msg=audit(1779892867.236:718): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892867.236:718):
+type=SYSCALL msg=audit(1779892871.000:719): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm="nano" exe="/usr/bin/nano" key="passwd_changes"
+type=CWD msg=audit(1779892871.000:719):
+type=PATH msg=audit(1779892871.000:719): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892871.000:719):
+type=SYSCALL msg=audit(1779892892.452:720): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892892.452:720):
+type=PATH msg=audit(1779892892.452:720): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892892.452:720):
+type=SYSCALL msg=audit(1779892892.456:721): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892892.456:721):
+type=PATH msg=audit(1779892892.456:721): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892892.456:721):
+type=SYSCALL msg=audit(1779892892.456:722): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892892.456:722):
+type=PATH msg=audit(1779892892.456:722): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892892.456:722):
+type=SYSCALL msg=audit(1779892892.456:723): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779892892.456:723):
+type=PATH msg=audit(1779892892.456:723): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779892892.456:723):
+type=SYSCALL msg=audit(1779892892.464:724): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892892.464:724):
+type=PATH msg=audit(1779892892.464:724): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892892.464:724):
+type=SYSCALL msg=audit(1779892892.464:725): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779892892.464:725):
+type=PATH msg=audit(1779892892.464:725): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779892892.464:725):
+type=SYSCALL msg=audit(1779892894.060:726): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.060:726):
+type=PATH msg=audit(1779892894.060:726): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.060:726):
+type=SYSCALL msg=audit(1779892894.060:727): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779892894.060:727):
+type=PATH msg=audit(1779892894.060:727): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779892894.060:727):
+type=SYSCALL msg=audit(1779892894.064:728): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.064:728):
+type=PATH msg=audit(1779892894.064:728): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.064:728):
+type=USER_AUTH msg=audit(1779892894.068:729): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892894.068:730): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.068:730):
+type=PATH msg=audit(1779892894.068:730): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.068:730):
+type=SYSCALL msg=audit(1779892894.068:731): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779892894.068:731):
+type=PATH msg=audit(1779892894.068:731): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779892894.068:731):
+type=USER_ACCT msg=audit(1779892894.072:732): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892894.072:733): syscall=257 success=yes exit=6 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.072:733):
+type=PATH msg=audit(1779892894.072:733): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.072:733):
+type=USER_CMD msg=audit(1779892894.072:734): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892894.072:735): syscall=257 success=yes exit=8 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.072:735):
+type=PATH msg=audit(1779892894.072:735): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.072:735):
+type=SYSCALL msg=audit(1779892894.072:736): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.072:736):
+type=PATH msg=audit(1779892894.072:736): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.072:736):
+type=CRED_REFR msg=audit(1779892894.072:737): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892894.072:738): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.072:738):
+type=PATH msg=audit(1779892894.072:738): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.072:738):
+type=SYSCALL msg=audit(1779892894.076:739): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.076:739):
+type=PATH msg=audit(1779892894.076:739): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.076:739):
+type=SYSCALL msg=audit(1779892894.076:740): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892894.076:740):
+type=PATH msg=audit(1779892894.076:740): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.076:740):
+type=USER_START msg=audit(1779892894.076:741): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892894.080:742): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="apt" exe="/usr/bin/apt" key="root_commands"
+type=EXECVE msg=audit(1779892894.080:742):
+type=CWD msg=audit(1779892894.080:742):
+type=PATH msg=audit(1779892894.080:742): name="/usr/bin/apt"
+type=PATH msg=audit(1779892894.080:742): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.080:742):
+type=SYSCALL msg=audit(1779892894.088:743): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="dpkg" exe="/usr/bin/dpkg" key="root_commands"
+type=EXECVE msg=audit(1779892894.088:743):
+type=CWD msg=audit(1779892894.088:743):
+type=PATH msg=audit(1779892894.088:743): name="/usr/bin/dpkg"
+type=PATH msg=audit(1779892894.088:743): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.088:743):
+type=SYSCALL msg=audit(1779892894.132:744): syscall=257 success=yes exit=4 auid=1000 uid=0 gid=0 euid=0 comm="apt" exe="/usr/bin/apt" key="passwd_changes"
+type=CWD msg=audit(1779892894.132:744):
+type=PATH msg=audit(1779892894.132:744): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.132:744):
+type=SYSCALL msg=audit(1779892894.132:745): syscall=257 success=yes exit=4 auid=1000 uid=0 gid=0 euid=0 comm="apt" exe="/usr/bin/apt" key="passwd_changes"
+type=CWD msg=audit(1779892894.132:745):
+type=PATH msg=audit(1779892894.132:745): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.132:745):
+type=SYSCALL msg=audit(1779892894.136:746): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="http" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=EXECVE msg=audit(1779892894.136:746):
+type=CWD msg=audit(1779892894.136:746):
+type=PATH msg=audit(1779892894.136:746): name="/usr/lib/apt/methods/http"
+type=PATH msg=audit(1779892894.136:746): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.136:746):
+type=SYSCALL msg=audit(1779892894.144:747): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="sh" exe="/usr/bin/dash" key="root_commands"
+type=EXECVE msg=audit(1779892894.144:747):
+type=CWD msg=audit(1779892894.144:747):
+type=PATH msg=audit(1779892894.144:747): name="/bin/sh"
+type=PATH msg=audit(1779892894.144:747): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.144:747):
+type=SYSCALL msg=audit(1779892894.148:748): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="id" exe="/usr/bin/id" key="root_commands"
+type=EXECVE msg=audit(1779892894.148:748):
+type=CWD msg=audit(1779892894.148:748):
+type=PATH msg=audit(1779892894.148:748): name="/usr/bin/id"
+type=PATH msg=audit(1779892894.148:748): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.148:748):
+type=SYSCALL msg=audit(1779892894.152:749): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="systemctl" exe="/usr/bin/systemctl" key="root_commands"
+type=EXECVE msg=audit(1779892894.152:749):
+type=CWD msg=audit(1779892894.152:749):
+type=PATH msg=audit(1779892894.152:749): name="/usr/bin/systemctl"
+type=PATH msg=audit(1779892894.152:749): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.152:749):
+type=SYSCALL msg=audit(1779892894.152:750): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="systemd-tty-ask" exe="/usr/bin/systemd-tty-ask-password-agent" key="root_commands"
+type=EXECVE msg=audit(1779892894.152:750):
+type=CWD msg=audit(1779892894.152:750):
+type=PATH msg=audit(1779892894.152:750): name="/bin/systemd-tty-ask-password-agent"
+type=PATH msg=audit(1779892894.152:750): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.152:750):
+type=SYSCALL msg=audit(1779892894.164:751): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.164:751):
+type=EXECVE msg=audit(1779892894.164:751):
+type=CWD msg=audit(1779892894.164:751):
+type=PATH msg=audit(1779892894.164:751): name="/usr/bin/python3"
+type=PATH msg=audit(1779892894.164:751): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.164:751):
+type=SYSCALL msg=audit(1779892894.172:752): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.172:752):
+type=EXECVE msg=audit(1779892894.172:752):
+type=CWD msg=audit(1779892894.172:752):
+type=PATH msg=audit(1779892894.172:752): name="/usr/bin/python3"
+type=PATH msg=audit(1779892894.172:752): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.172:752):
+type=SYSCALL msg=audit(1779892894.176:753): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=0 euid=0 comm="apt" exe="/usr/bin/apt" key="passwd_changes"
+type=CWD msg=audit(1779892894.176:753):
+type=PATH msg=audit(1779892894.176:753): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.176:753):
+type=SYSCALL msg=audit(1779892894.176:754): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="http" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=EXECVE msg=audit(1779892894.176:754):
+type=CWD msg=audit(1779892894.176:754):
+type=PATH msg=audit(1779892894.176:754): name="/usr/lib/apt/methods/http"
+type=PATH msg=audit(1779892894.176:754): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.176:754):
+type=SYSCALL msg=audit(1779892894.176:755): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.176:755):
+type=PATH msg=audit(1779892894.176:755): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.176:755):
+type=SYSCALL msg=audit(1779892894.184:756): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="http" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=EXECVE msg=audit(1779892894.184:756):
+type=CWD msg=audit(1779892894.184:756):
+type=PATH msg=audit(1779892894.184:756): name="/usr/lib/apt/methods/http"
+type=PATH msg=audit(1779892894.184:756): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.184:756):
+type=SYSCALL msg=audit(1779892894.196:757): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.196:757):
+type=PATH msg=audit(1779892894.196:757): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.196:757):
+type=SYSCALL msg=audit(1779892894.196:758): syscall=257 success=yes exit=3 auid=1000 uid=0 gid=0 euid=0 comm="http" exe="/usr/lib/apt/methods/http" key="passwd_changes"
+type=CWD msg=audit(1779892894.196:758):
+type=PATH msg=audit(1779892894.196:758): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.196:758):
+type=SYSCALL msg=audit(1779892894.204:759): syscall=257 success=yes exit=3 auid=1000 uid=0 gid=0 euid=0 comm="http" exe="/usr/lib/apt/methods/http" key="passwd_changes"
+type=CWD msg=audit(1779892894.204:759):
+type=PATH msg=audit(1779892894.204:759): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.204:759):
+type=SYSCALL msg=audit(1779892894.344:760): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="ubuntu-distro-i" exe="/usr/bin/ubuntu-distro-info" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.344:760):
+type=EXECVE msg=audit(1779892894.344:760):
+type=CWD msg=audit(1779892894.344:760):
+type=PATH msg=audit(1779892894.344:760): name="/usr/bin/ubuntu-distro-info"
+type=PATH msg=audit(1779892894.344:760): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.344:760):
+type=SYSCALL msg=audit(1779892894.348:761): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.348:761):
+type=PATH msg=audit(1779892894.348:761): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.348:761):
+type=SYSCALL msg=audit(1779892894.348:762): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="https" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.348:762):
+type=EXECVE msg=audit(1779892894.348:762):
+type=CWD msg=audit(1779892894.348:762):
+type=PATH msg=audit(1779892894.348:762): name="/usr/lib/apt/methods/https"
+type=PATH msg=audit(1779892894.348:762): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.348:762):
+type=SYSCALL msg=audit(1779892894.356:763): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.356:763):
+type=PATH msg=audit(1779892894.356:763): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.356:763):
+type=SYSCALL msg=audit(1779892894.360:764): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="https" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.360:764):
+type=EXECVE msg=audit(1779892894.360:764):
+type=CWD msg=audit(1779892894.360:764):
+type=PATH msg=audit(1779892894.360:764): name="/usr/lib/apt/methods/https"
+type=PATH msg=audit(1779892894.360:764): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.360:764):
+type=SYSCALL msg=audit(1779892894.368:765): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="https" exe="/usr/lib/apt/methods/http" key="passwd_changes"
+type=CWD msg=audit(1779892894.368:765):
+type=PATH msg=audit(1779892894.368:765): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.368:765):
+type=SYSCALL msg=audit(1779892894.408:766): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="ubuntu-distro-i" exe="/usr/bin/ubuntu-distro-info" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.408:766):
+type=EXECVE msg=audit(1779892894.408:766):
+type=CWD msg=audit(1779892894.408:766):
+type=PATH msg=audit(1779892894.408:766): name="/usr/bin/ubuntu-distro-info"
+type=PATH msg=audit(1779892894.408:766): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.408:766):
+type=SYSCALL msg=audit(1779892894.412:767): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="dpkg" exe="/usr/bin/dpkg" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.412:767):
+type=EXECVE msg=audit(1779892894.412:767):
+type=CWD msg=audit(1779892894.412:767):
+type=PATH msg=audit(1779892894.412:767): name="/usr/bin/dpkg"
+type=PATH msg=audit(1779892894.412:767): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.412:767):
+type=SYSCALL msg=audit(1779892894.420:768): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="dpkg" exe="/usr/bin/dpkg" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.420:768):
+type=EXECVE msg=audit(1779892894.420:768):
+type=CWD msg=audit(1779892894.420:768):
+type=PATH msg=audit(1779892894.420:768): name="/usr/bin/dpkg"
+type=PATH msg=audit(1779892894.420:768): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.420:768):
+type=SYSCALL msg=audit(1779892894.452:769): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.452:769):
+type=PATH msg=audit(1779892894.452:769): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.452:769):
+type=SYSCALL msg=audit(1779892894.452:770): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.452:770):
+type=PATH msg=audit(1779892894.452:770): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.452:770):
+type=SYSCALL msg=audit(1779892894.452:771): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="https" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.452:771):
+type=EXECVE msg=audit(1779892894.452:771):
+type=CWD msg=audit(1779892894.452:771):
+type=PATH msg=audit(1779892894.452:771): name="/usr/lib/apt/methods/https"
+type=PATH msg=audit(1779892894.452:771): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.452:771):
+type=SYSCALL msg=audit(1779892894.468:772): syscall=257 success=yes exit=4 auid=4294967295 uid=0 gid=0 euid=0 comm="python3" exe="/usr/bin/python3.10" key="passwd_changes"
+type=CWD msg=audit(1779892894.468:772):
+type=PATH msg=audit(1779892894.468:772): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.468:772):
+type=SYSCALL msg=audit(1779892894.468:773): syscall=59 success=yes exit=0 auid=4294967295 uid=0 gid=0 euid=0 comm="https" exe="/usr/lib/apt/methods/http" key="root_commands"
+type=BPRM_FCAPS msg=audit(1779892894.468:773):
+type=EXECVE msg=audit(1779892894.468:773):
+type=CWD msg=audit(1779892894.468:773):
+type=PATH msg=audit(1779892894.468:773): name="/usr/lib/apt/methods/https"
+type=PATH msg=audit(1779892894.468:773): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892894.468:773):
+type=SYSCALL msg=audit(1779892894.476:774): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="https" exe="/usr/lib/apt/methods/http" key="passwd_changes"
+type=CWD msg=audit(1779892894.476:774):
+type=PATH msg=audit(1779892894.476:774): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892894.476:774):
+type=SYSCALL msg=audit(1779892901.280:775): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="dpkg" exe="/usr/bin/dpkg" key="root_commands"
+type=EXECVE msg=audit(1779892901.280:775):
+type=CWD msg=audit(1779892901.280:775):
+type=PATH msg=audit(1779892901.280:775): name="/usr/bin/dpkg"
+type=PATH msg=audit(1779892901.280:775): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892901.280:775):
+type=SERVICE_START msg=audit(1779892901.620:776): uid=0 auid=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SERVICE_STOP msg=audit(1779892901.620:777): uid=0 auid=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SERVICE_START msg=audit(1779892901.628:778): uid=0 auid=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SERVICE_STOP msg=audit(1779892901.628:779): uid=0 auid=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SYSCALL msg=audit(1779892905.844:780): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="dpkg" exe="/usr/bin/dpkg" key="root_commands"
+type=EXECVE msg=audit(1779892905.844:780):
+type=CWD msg=audit(1779892905.844:780):
+type=PATH msg=audit(1779892905.844:780): name="/usr/bin/dpkg"
+type=PATH msg=audit(1779892905.844:780): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892905.844:780):
+type=USER_END msg=audit(1779892906.264:781): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=CRED_DISP msg=audit(1779892906.264:782): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892937.392:783): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.392:783):
+type=PATH msg=audit(1779892937.392:783): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.392:783):
+type=SYSCALL msg=audit(1779892937.396:784): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.396:784):
+type=PATH msg=audit(1779892937.396:784): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.396:784):
+type=SYSCALL msg=audit(1779892937.396:785): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.396:785):
+type=PATH msg=audit(1779892937.396:785): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.396:785):
+type=SYSCALL msg=audit(1779892937.396:786): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779892937.396:786):
+type=PATH msg=audit(1779892937.396:786): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779892937.396:786):
+type=SYSCALL msg=audit(1779892937.396:787): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.396:787):
+type=PATH msg=audit(1779892937.396:787): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.396:787):
+type=SYSCALL msg=audit(1779892937.400:788): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779892937.400:788):
+type=PATH msg=audit(1779892937.400:788): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779892937.400:788):
+type=USER_ACCT msg=audit(1779892937.400:789): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892937.400:790): syscall=257 success=yes exit=6 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.400:790):
+type=PATH msg=audit(1779892937.400:790): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.400:790):
+type=USER_CMD msg=audit(1779892937.400:791): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892937.400:792): syscall=257 success=yes exit=8 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.400:792):
+type=PATH msg=audit(1779892937.400:792): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.400:792):
+type=SYSCALL msg=audit(1779892937.400:793): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.400:793):
+type=PATH msg=audit(1779892937.400:793): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.400:793):
+type=CRED_REFR msg=audit(1779892937.400:794): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892937.400:795): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.400:795):
+type=PATH msg=audit(1779892937.400:795): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.400:795):
+type=SYSCALL msg=audit(1779892937.400:796): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.400:796):
+type=PATH msg=audit(1779892937.400:796): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.400:796):
+type=SYSCALL msg=audit(1779892937.400:797): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779892937.400:797):
+type=PATH msg=audit(1779892937.400:797): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779892937.400:797):
+type=USER_START msg=audit(1779892937.400:798): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779892937.400:799): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="ausearch" exe="/usr/sbin/ausearch" key="root_commands"
+type=EXECVE msg=audit(1779892937.400:799):
+type=CWD msg=audit(1779892937.400:799):
+type=PATH msg=audit(1779892937.400:799): name="/usr/sbin/ausearch"
+type=PATH msg=audit(1779892937.400:799): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779892937.400:799):
+type=USER_END msg=audit(1779892937.920:800): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=CRED_DISP msg=audit(1779892937.920:801): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779893136.188:802): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.188:802):
+type=PATH msg=audit(1779893136.188:802): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.188:802):
+type=SYSCALL msg=audit(1779893136.188:803): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.188:803):
+type=PATH msg=audit(1779893136.188:803): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.188:803):
+type=SYSCALL msg=audit(1779893136.188:804): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.188:804):
+type=PATH msg=audit(1779893136.188:804): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.188:804):
+type=SYSCALL msg=audit(1779893136.188:805): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779893136.188:805):
+type=PATH msg=audit(1779893136.188:805): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779893136.188:805):
+type=SYSCALL msg=audit(1779893136.192:806): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.192:806):
+type=PATH msg=audit(1779893136.192:806): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.192:806):
+type=SYSCALL msg=audit(1779893136.192:807): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779893136.192:807):
+type=PATH msg=audit(1779893136.192:807): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779893136.192:807):
+type=USER_ACCT msg=audit(1779893136.192:808): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779893136.192:809): syscall=257 success=yes exit=6 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.192:809):
+type=PATH msg=audit(1779893136.192:809): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.192:809):
+type=USER_CMD msg=audit(1779893136.192:810): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779893136.192:811): syscall=257 success=yes exit=8 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.192:811):
+type=PATH msg=audit(1779893136.192:811): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.192:811):
+type=SYSCALL msg=audit(1779893136.192:812): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.192:812):
+type=PATH msg=audit(1779893136.192:812): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.192:812):
+type=CRED_REFR msg=audit(1779893136.192:813): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779893136.192:814): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.192:814):
+type=PATH msg=audit(1779893136.192:814): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.192:814):
+type=SYSCALL msg=audit(1779893136.192:815): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.192:815):
+type=PATH msg=audit(1779893136.192:815): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.192:815):
+type=SYSCALL msg=audit(1779893136.196:816): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm="sudo" exe="/usr/bin/sudo" key="passwd_changes"
+type=CWD msg=audit(1779893136.196:816):
+type=PATH msg=audit(1779893136.196:816): name="/etc/passwd"
+type=PROCTITLE msg=audit(1779893136.196:816):
+type=USER_START msg=audit(1779893136.196:817): uid=1000 auid=1000 exe="/usr/bin/sudo"
+type=SYSCALL msg=audit(1779893136.196:818): syscall=59 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="ausearch" exe="/usr/sbin/ausearch" key="root_commands"
+type=EXECVE msg=audit(1779893136.196:818):
+type=CWD msg=audit(1779893136.196:818):
+type=PATH msg=audit(1779893136.196:818): name="/usr/sbin/ausearch"
+type=PATH msg=audit(1779893136.196:818): name="/lib64/ld-linux-x86-64.so.2"
+type=PROCTITLE msg=audit(1779893136.196:818):

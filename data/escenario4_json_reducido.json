@@ -1,0 +1,425 @@
+[
+    {
+        "auid": "1000",
+        "key": "sudoers_changes",
+        "type": "CONFIG_CHANGE"
+    },
+    {
+        "syscall": "44",
+        "success": "yes",
+        "exit": "1084",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "auditctl",
+        "exe": "/usr/sbin/auditctl",
+        "key": "(null)",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "SOCKADDR"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "visudo",
+        "exe": "/usr/sbin/visudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "82",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "visudo",
+        "exe": "/usr/sbin/visudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/sudoers.tmp",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "touch",
+        "exe": "/usr/bin/touch",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "268",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "chmod",
+        "exe": "/usr/bin/chmod",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    }
+]

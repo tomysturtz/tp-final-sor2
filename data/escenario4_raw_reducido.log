@@ -1,0 +1,76 @@
+type=CONFIG_CHANGE msg=audit(1779746663.172:256): auid=1000 key="sudoers_changes"
+type=SYSCALL msg=audit(1779746663.172:256): syscall=44 success=yes exit=1084 auid=1000 uid=0 gid=0 euid=0 comm="auditctl" exe="/usr/sbin/auditctl" key=(null)
+type=SOCKADDR msg=audit(1779746663.172:256):
+type=CWD msg=audit(1779746663.172:256):
+type=PATH msg=audit(1779746663.172:256): name="/etc/"
+type=PROCTITLE msg=audit(1779746663.172:256):
+type=SYSCALL msg=audit(1779746681.796:264): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779746681.796:264):
+type=PATH msg=audit(1779746681.796:264): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779746681.796:264):
+type=SYSCALL msg=audit(1779747406.356:301): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779747406.356:301):
+type=PATH msg=audit(1779747406.356:301): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779747406.356:301):
+type=SYSCALL msg=audit(1779747428.852:335): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779747428.852:335):
+type=PATH msg=audit(1779747428.852:335): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779747428.852:335):
+type=SYSCALL msg=audit(1779747500.144:354): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779747500.144:354):
+type=PATH msg=audit(1779747500.144:354): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779747500.144:354):
+type=SYSCALL msg=audit(1779748076.424:478): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779748076.424:478):
+type=PATH msg=audit(1779748076.424:478): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748076.424:478):
+type=SYSCALL msg=audit(1779748215.584:541): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779748215.584:541):
+type=PATH msg=audit(1779748215.584:541): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748215.584:541):
+type=SYSCALL msg=audit(1779748378.328:564): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779748378.328:564):
+type=PATH msg=audit(1779748378.328:564): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748378.328:564):
+type=SYSCALL msg=audit(1779748594.352:600): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779748594.352:600):
+type=PATH msg=audit(1779748594.352:600): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748594.352:600):
+type=SYSCALL msg=audit(1779748683.224:620): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779748683.224:620):
+type=PATH msg=audit(1779748683.224:620): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748683.224:620):
+type=SYSCALL msg=audit(1779748683.244:635): syscall=257 success=yes exit=3 auid=1000 uid=0 gid=0 euid=0 comm="visudo" exe="/usr/sbin/visudo" key="sudoers_changes"
+type=CWD msg=audit(1779748683.244:635):
+type=PATH msg=audit(1779748683.244:635): name="/etc/"
+type=PATH msg=audit(1779748683.244:635): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748683.244:635):
+type=SYSCALL msg=audit(1779748697.244:640): syscall=82 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="visudo" exe="/usr/sbin/visudo" key="sudoers_changes"
+type=CWD msg=audit(1779748697.244:640):
+type=PATH msg=audit(1779748697.244:640): name="/etc/"
+type=PATH msg=audit(1779748697.244:640): name="/etc/"
+type=PATH msg=audit(1779748697.244:640): name="/etc/sudoers.tmp"
+type=PATH msg=audit(1779748697.244:640): name="/etc/sudoers"
+type=PATH msg=audit(1779748697.244:640): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748697.244:640):
+type=SYSCALL msg=audit(1779748824.976:646): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779748824.976:646):
+type=PATH msg=audit(1779748824.976:646): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748824.976:646):
+type=SYSCALL msg=audit(1779748824.988:660): syscall=257 success=yes exit=3 auid=1000 uid=0 gid=0 euid=0 comm="touch" exe="/usr/bin/touch" key="sudoers_changes"
+type=CWD msg=audit(1779748824.988:660):
+type=PATH msg=audit(1779748824.988:660): name="/etc/"
+type=PATH msg=audit(1779748824.988:660): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779748824.988:660):
+type=SYSCALL msg=audit(1779749040.404:667): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779749040.404:667):
+type=PATH msg=audit(1779749040.404:667): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779749040.404:667):
+type=SYSCALL msg=audit(1779749040.412:681): syscall=268 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="chmod" exe="/usr/bin/chmod" key="sudoers_changes"
+type=CWD msg=audit(1779749040.412:681):
+type=PATH msg=audit(1779749040.412:681): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779749040.412:681):
+type=SYSCALL msg=audit(1779749098.796:687): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=1000 euid=1 comm="sudo" exe="/usr/bin/sudo" key="sudoers_changes"
+type=CWD msg=audit(1779749098.796:687):
+type=PATH msg=audit(1779749098.796:687): name="/etc/sudoers"
+type=PROCTITLE msg=audit(1779749098.796:687):

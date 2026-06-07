@@ -1,0 +1,234 @@
+type=CONFIG_CHANGE msg=audit(1779746663.172:258): auid=1000 key="shadow_access"
+type=SYSCALL msg=audit(1779746663.172:258): syscall=44 success=yes exit=1080 auid=1000 uid=0 gid=0 euid=0 comm="auditctl" exe="/usr/sbin/auditctl" key=(null)
+type=SOCKADDR msg=audit(1779746663.172:258):
+type=CWD msg=audit(1779746663.172:258):
+type=PATH msg=audit(1779746663.172:258): name="/etc/"
+type=PROCTITLE msg=audit(1779746663.172:258):
+type=SYSCALL msg=audit(1779746681.800:266): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779746681.800:266):
+type=PATH msg=audit(1779746681.800:266): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779746681.800:266):
+type=SYSCALL msg=audit(1779747406.360:303): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779747406.360:303):
+type=PATH msg=audit(1779747406.360:303): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779747406.360:303):
+type=SYSCALL msg=audit(1779747421.900:318): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm="cron" exe="/usr/sbin/cron" key="shadow_access"
+type=CWD msg=audit(1779747421.900:318):
+type=PATH msg=audit(1779747421.900:318): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779747421.900:318):
+type=SYSCALL msg=audit(1779747428.856:337): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779747428.856:337):
+type=PATH msg=audit(1779747428.856:337): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779747428.856:337):
+type=SYSCALL msg=audit(1779747500.148:356): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779747500.148:356):
+type=PATH msg=audit(1779747500.148:356): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779747500.148:356):
+type=SYSCALL msg=audit(1779748055.680:380): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779748055.680:380):
+type=PATH msg=audit(1779748055.680:380): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748055.680:380):
+type=SYSCALL msg=audit(1779748055.688:384): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779748055.688:384):
+type=PATH msg=audit(1779748055.688:384): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748055.688:384):
+type=SYSCALL msg=audit(1779748055.696:394): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779748055.696:394):
+type=PATH msg=audit(1779748055.696:394): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748055.696:394):
+type=SYSCALL msg=audit(1779748076.428:480): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748076.428:480):
+type=PATH msg=audit(1779748076.428:480): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748076.428:480):
+type=SYSCALL msg=audit(1779748078.316:482): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748078.316:482):
+type=PATH msg=audit(1779748078.316:482): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748078.316:482):
+type=SYSCALL msg=audit(1779748078.320:486): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748078.320:486):
+type=PATH msg=audit(1779748078.320:486): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748078.320:486):
+type=SYSCALL msg=audit(1779748215.588:543): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748215.588:543):
+type=PATH msg=audit(1779748215.588:543): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748215.588:543):
+type=SYSCALL msg=audit(1779748378.332:566): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748378.332:566):
+type=PATH msg=audit(1779748378.332:566): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748378.332:566):
+type=SYSCALL msg=audit(1779748378.344:581): syscall=257 success=yes exit=10 auid=1000 uid=0 gid=0 euid=0 comm="useradd" exe="/usr/sbin/useradd" key="shadow_access"
+type=CWD msg=audit(1779748378.344:581):
+type=PATH msg=audit(1779748378.344:581): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748378.344:581):
+type=SYSCALL msg=audit(1779748378.376:587): syscall=82 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm="useradd" exe="/usr/sbin/useradd" key="shadow_access"
+type=CWD msg=audit(1779748378.376:587):
+type=PATH msg=audit(1779748378.376:587): name="/etc/"
+type=PATH msg=audit(1779748378.376:587): name="/etc/"
+type=PATH msg=audit(1779748378.376:587): name="/etc/shadow+"
+type=PATH msg=audit(1779748378.376:587): name="/etc/shadow"
+type=PATH msg=audit(1779748378.376:587): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748378.376:587):
+type=SYSCALL msg=audit(1779748594.352:602): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748594.352:602):
+type=PATH msg=audit(1779748594.352:602): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748594.352:602):
+type=SYSCALL msg=audit(1779748683.232:622): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748683.232:622):
+type=PATH msg=audit(1779748683.232:622): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748683.232:622):
+type=SYSCALL msg=audit(1779748824.984:648): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779748824.984:648):
+type=PATH msg=audit(1779748824.984:648): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779748824.984:648):
+type=SYSCALL msg=audit(1779749040.408:669): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749040.408:669):
+type=PATH msg=audit(1779749040.408:669): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749040.408:669):
+type=SYSCALL msg=audit(1779749098.800:689): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749098.800:689):
+type=PATH msg=audit(1779749098.800:689): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749098.800:689):
+type=SYSCALL msg=audit(1779749171.480:710): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="login" exe="/usr/bin/login" key="shadow_access"
+type=CWD msg=audit(1779749171.480:710):
+type=PATH msg=audit(1779749171.480:710): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749171.480:710):
+type=SYSCALL msg=audit(1779749177.904:715): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="login" exe="/usr/bin/login" key="shadow_access"
+type=CWD msg=audit(1779749177.904:715):
+type=PATH msg=audit(1779749177.904:715): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749177.904:715):
+type=SYSCALL msg=audit(1779749177.912:720): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm="login" exe="/usr/bin/login" key="shadow_access"
+type=CWD msg=audit(1779749177.912:720):
+type=PATH msg=audit(1779749177.912:720): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749177.912:720):
+type=SYSCALL msg=audit(1779749178.356:801): syscall=257 success=yes exit=4 auid=1000 uid=0 gid=0 euid=0 comm="login" exe="/usr/bin/login" key="shadow_access"
+type=CWD msg=audit(1779749178.356:801):
+type=PATH msg=audit(1779749178.356:801): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749178.356:801):
+type=SYSCALL msg=audit(1779749178.384:808): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm="(systemd)" exe="/usr/lib/systemd/systemd" key="shadow_access"
+type=CWD msg=audit(1779749178.384:808):
+type=PATH msg=audit(1779749178.384:808): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749178.384:808):
+type=SYSCALL msg=audit(1779749178.388:819): syscall=257 success=yes exit=8 auid=1000 uid=0 gid=0 euid=0 comm="(systemd)" exe="/usr/lib/systemd/systemd" key="shadow_access"
+type=CWD msg=audit(1779749178.388:819):
+type=PATH msg=audit(1779749178.388:819): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749178.388:819):
+type=SYSCALL msg=audit(1779749231.584:846): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779749231.584:846):
+type=PATH msg=audit(1779749231.584:846): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749231.584:846):
+type=SYSCALL msg=audit(1779749231.592:850): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779749231.592:850):
+type=PATH msg=audit(1779749231.592:850): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749231.592:850):
+type=SYSCALL msg=audit(1779749231.600:860): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779749231.600:860):
+type=PATH msg=audit(1779749231.600:860): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749231.600:860):
+type=SYSCALL msg=audit(1779749231.628:867): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm="(systemd)" exe="/usr/lib/systemd/systemd" key="shadow_access"
+type=CWD msg=audit(1779749231.628:867):
+type=PATH msg=audit(1779749231.628:867): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749231.628:867):
+type=SYSCALL msg=audit(1779749231.632:878): syscall=257 success=yes exit=8 auid=1000 uid=0 gid=0 euid=0 comm="(systemd)" exe="/usr/lib/systemd/systemd" key="shadow_access"
+type=CWD msg=audit(1779749231.632:878):
+type=PATH msg=audit(1779749231.632:878): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749231.632:878):
+type=SYSCALL msg=audit(1779749285.580:954): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779749285.580:954):
+type=PATH msg=audit(1779749285.580:954): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749285.580:954):
+type=SYSCALL msg=audit(1779749285.644:958): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779749285.644:958):
+type=PATH msg=audit(1779749285.644:958): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749285.644:958):
+type=SYSCALL msg=audit(1779749285.652:968): syscall=257 success=yes exit=5 auid=1001 uid=0 gid=0 euid=0 comm="sshd" exe="/usr/sbin/sshd" key="shadow_access"
+type=CWD msg=audit(1779749285.652:968):
+type=PATH msg=audit(1779749285.652:968): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749285.652:968):
+type=SYSCALL msg=audit(1779749285.684:975): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm="(systemd)" exe="/usr/lib/systemd/systemd" key="shadow_access"
+type=CWD msg=audit(1779749285.684:975):
+type=PATH msg=audit(1779749285.684:975): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749285.684:975):
+type=SYSCALL msg=audit(1779749285.684:986): syscall=257 success=yes exit=8 auid=1001 uid=0 gid=0 euid=0 comm="(systemd)" exe="/usr/lib/systemd/systemd" key="shadow_access"
+type=CWD msg=audit(1779749285.684:986):
+type=PATH msg=audit(1779749285.684:986): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749285.684:986):
+type=SYSCALL msg=audit(1779749346.256:1074): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749346.256:1074):
+type=PATH msg=audit(1779749346.256:1074): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749346.256:1074):
+type=SYSCALL msg=audit(1779749365.372:1076): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749365.372:1076):
+type=PATH msg=audit(1779749365.372:1076): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749365.372:1076):
+type=SYSCALL msg=audit(1779749367.312:1079): syscall=257 success=yes exit=8 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749367.312:1079):
+type=PATH msg=audit(1779749367.312:1079): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749367.312:1079):
+type=SYSCALL msg=audit(1779749376.260:1081): syscall=257 success=yes exit=8 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749376.260:1081):
+type=PATH msg=audit(1779749376.260:1081): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749376.260:1081):
+type=SYSCALL msg=audit(1779749376.300:1085): syscall=257 success=yes exit=8 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749376.300:1085):
+type=PATH msg=audit(1779749376.300:1085): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749376.300:1085):
+type=SYSCALL msg=audit(1779749420.932:1093): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749420.932:1093):
+type=PATH msg=audit(1779749420.932:1093): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749420.932:1093):
+type=SYSCALL msg=audit(1779749428.384:1095): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749428.384:1095):
+type=PATH msg=audit(1779749428.384:1095): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749428.384:1095):
+type=SYSCALL msg=audit(1779749428.424:1099): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749428.424:1099):
+type=PATH msg=audit(1779749428.424:1099): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749428.424:1099):
+type=SYSCALL msg=audit(1779749504.060:1105): syscall=257 success=yes exit=3 auid=1001 uid=1001 gid=1001 euid=0 comm="su" exe="/usr/bin/su" key="shadow_access"
+type=CWD msg=audit(1779749504.060:1105):
+type=PATH msg=audit(1779749504.060:1105): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749504.060:1105):
+type=SYSCALL msg=audit(1779749506.908:1107): syscall=257 success=yes exit=3 auid=1001 uid=1001 gid=1001 euid=0 comm="su" exe="/usr/bin/su" key="shadow_access"
+type=CWD msg=audit(1779749506.908:1107):
+type=PATH msg=audit(1779749506.908:1107): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749506.908:1107):
+type=SYSCALL msg=audit(1779749615.208:1114): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749615.208:1114):
+type=PATH msg=audit(1779749615.208:1114): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749615.208:1114):
+type=SYSCALL msg=audit(1779749624.816:1116): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749624.816:1116):
+type=PATH msg=audit(1779749624.816:1116): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749624.816:1116):
+type=SYSCALL msg=audit(1779749624.856:1120): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749624.856:1120):
+type=PATH msg=audit(1779749624.856:1120): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749624.856:1120):
+type=SYSCALL msg=audit(1779749667.152:1128): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749667.152:1128):
+type=PATH msg=audit(1779749667.152:1128): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749667.152:1128):
+type=SYSCALL msg=audit(1779749669.664:1130): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749669.664:1130):
+type=PATH msg=audit(1779749669.664:1130): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749669.664:1130):
+type=SYSCALL msg=audit(1779749669.672:1134): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779749669.672:1134):
+type=PATH msg=audit(1779749669.672:1134): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749669.672:1134):
+type=SYSCALL msg=audit(1779749927.740:1152): syscall=257 success=no exit=-13 auid=1001 uid=1001 gid=1001 euid=1001 comm="cat" exe="/usr/bin/cat" key="shadow_access"
+type=CWD msg=audit(1779749927.740:1152):
+type=PATH msg=audit(1779749927.740:1152): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779749927.740:1152):
+type=SYSCALL msg=audit(1779750010.572:1153): syscall=257 success=no exit=-13 auid=1001 uid=1001 gid=1001 euid=1001 comm="head" exe="/usr/bin/head" key="shadow_access"
+type=CWD msg=audit(1779750010.572:1153):
+type=PATH msg=audit(1779750010.572:1153): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779750010.572:1153):
+type=SYSCALL msg=audit(1779750068.296:1154): syscall=257 success=no exit=-13 auid=1001 uid=1001 gid=1001 euid=1001 comm="cp" exe="/usr/bin/cp" key="shadow_access"
+type=CWD msg=audit(1779750068.296:1154):
+type=PATH msg=audit(1779750068.296:1154): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779750068.296:1154):
+type=SYSCALL msg=audit(1779750128.964:1160): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm="sudo" exe="/usr/bin/sudo" key="shadow_access"
+type=CWD msg=audit(1779750128.964:1160):
+type=PATH msg=audit(1779750128.964:1160): name="/etc/shadow"
+type=PROCTITLE msg=audit(1779750128.964:1160):

@@ -1,0 +1,140 @@
+Log,Riesgo,Justificacion,Tiempo Respuesta (s),Modelo
+"type=CONFIG_CHANGE msg=audit(1779746663.172:255): auid=1000 key=""passwd_changes""",ALTO,Modificación de archivos del directorio '/.pam' puede indicar cambios en las credenciales o configuración que potenzallenan la seguridad.,10.19,phi3:mini
+"type=SYSCALL msg=audit(1779746663.172:255): syscall=44 success=yes exit=1084 auid=1000 uid=0 gid=0 euid=0 comm=""auditctl"" exe=""/usr/sbin/auditctl"" key=(null)",INFO,"Actividad administrativa normal para el sistema, sin indicaciones de acciones maliciosas.",5.18,phi3:mini
+type=PROCTITLE msg=audit(1779746663.172:255):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.792:261): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"El uso de 'sudo' junto con intentos en el archivo '/etc/shadow' sugiere modificaciones potenciales, aunque sin exitoso resultado. Esta actividad es sospechosa y requiere una investigación adicional.",7.78,phi3:mini
+type=CWD msg=audit(1779746681.792:261):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.792:261): name=""/etc/passwd""",INFO,Acceso normal al archivo de inicio sin indicadores de acciones maliciosas.,4.94,phi3:mini
+type=PROCTITLE msg=audit(1779746681.792:261):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.796:262): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"El comando sudo ejecutado por un usuario normal a menudo indica que se están realizando operaciones de privilegio elevados, lo cual puede ser indicativo potencialmente peligroso si estos cambios no son autorizados.",7.93,phi3:mini
+type=CWD msg=audit(1779746681.796:262):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.796:262): name=""/etc/passwd""",BAJO,"Lectura de un archivo general por usuario sin privilegios, no representa riesgo.",5.31,phi3:mini
+type=PROCTITLE msg=audit(1779746681.796:262):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.796:263): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Uso de sudo que puede implicar cambios en la configuración del sistema, pero sin más contexto es difícil evaluar como alto o bajo.",6.5,phi3:mini
+type=CWD msg=audit(1779746681.796:263):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.796:263): name=""/etc/passwd""",BAJO,Acceso exitoso a archivo estándar de usuarios sin indicaciones directas de malicia.,5.42,phi3:mini
+type=PROCTITLE msg=audit(1779746681.796:263):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:265): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",ALTO,"Modificación de archivos críticos observada con el comando sudo, incrementa riesgo.",5.28,phi3:mini
+type=CWD msg=audit(1779746681.800:265):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:265): name=""/etc/passwd""",INFO,Actividad de lectura regular del archivo passthought no representa riesgos significativos.,5.21,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:265):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:268): syscall=257 success=yes exit=6 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Uso de sudo para modificar archivos, potencial acceso elevado a recursos del sistema.",5.62,phi3:mini
+type=CWD msg=audit(1779746681.800:268):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:268): name=""/etc/passwd""",BAJO,"Uso normal por parte de usuarios para leer el archivo /etc/passwd, que contiene información básica sobre los usuarios del sistema.",6.33,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:268):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:270): syscall=257 success=yes exit=8 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Uso de sudo para modificaciones no relacionadas con scripts o servicios, lo que sugiere posibles cambios incontrolables.",6.01,phi3:mini
+type=CWD msg=audit(1779746681.800:270):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:270): name=""/etc/passwd""",BAJO,Lectura exitosa de un archivo general por usuario sin privilegios elevados.,5.21,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:270):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:271): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",ALTO,"Intento de cambio de contraseña, una actividad que puede sugerir un intento directo para obtener acceso a la cuenta actualizada.",6.49,phi3:mini
+type=CWD msg=audit(1779746681.800:271):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:271): name=""/etc/passwd""",BAJO,"Lectura exitosa de un archivo general por parte de usuarios sin privilegios, normal en el monitoreo.",5.83,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:271):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:273): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,Uso de la herramienta 'sudo' indicativo potencial de intento de cambio no autorizado.,5.74,phi3:mini
+type=CWD msg=audit(1779746681.800:273):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:273): name=""/etc/passwd""",INFO,"Actividad de lectura no requerir privilegios por parte del usuario, común y normal en el mantenimiento.",5.54,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:273):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:274): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Intento exitoso de cambio en el archivo de pasword, indicativo posiblemente malicioso pero no confirma acceso a credenciales.",6.33,phi3:mini
+type=CWD msg=audit(1779746681.800:274):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:274): name=""/etc/passwd""",BAJO,"Lectura normal de archivos utilizados por todos los usuarios, no representa riesgo.",5.33,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:274):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:275): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,Uso de sudo para cambios en el archivo passwd sugesta acciones potencialmente peligrosas.,5.87,phi3:mini
+type=CWD msg=audit(1779746681.800:275):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:275): name=""/etc/passwd""",BAJO,Acceso exitoso a un archivo general por parte de usuarios sin privilegios.,5.17,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:275):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746897.044:281): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm=""cat"" exe=""/usr/bin/cat"" key=""passwd_changes""",BAJO,"Lectura exitosa de archivos generales por un usuario sin privilegios, considerada común y no representa riesgo.",6.14,phi3:mini
+type=CWD msg=audit(1779746897.044:281):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746897.044:281): name=""/etc/passwd""",MEDIO,"Modificación de archivos generales, aunque no específicos para usuarios privilegiados.",5.24,phi3:mini
+type=PROCTITLE msg=audit(1779746897.044:281):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:283): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",INFO,"Actividad de cambio automático de archivos por parte del demonio systemd, sin implicaciones directas para la seguridad.",5.92,phi3:mini
+type=CWD msg=audit(1779747001.360:283):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:283): name=""/etc/passwd""",INFO,Lectura de un archivo estándar del sistema que generalmente no presenta riesgos.,5.14,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:283):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:284): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",INFO,"Actividad relacionada con archivos temporal, no representa una amenaza directa.",5.05,phi3:mini
+type=CWD msg=audit(1779747001.360:284):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:284): name=""/etc/passwd""",BAJO,"Lectura de archivos generales por usuario sin privilegios, no es una actividad maliciosa.",5.56,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:284):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:285): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",INFO,"Modificación de archivos no críticos realizada por un demonio del sistema, normal para la operación.",5.46,phi3:mini
+type=CWD msg=audit(1779747001.360:285):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:285): name=""/etc/passwd""",INFO,"Ruido del sistema o lectura de archivos, no hay indicaciones claras que sugieran una amenaza.",5.51,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:285):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:286): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",BAJO,"Modificación exitosa de archivos no críticos por un demonio del sistema, sin indicadores directos de actividad maliciosa.",6.04,phi3:mini
+type=CWD msg=audit(1779747001.360:286):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:286): name=""/etc/passwd""",BAJO,Lectura exitosa de archivos generales por usuarios que no tienen privilegios elevados.,5.42,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:286):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:287): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",MEDIO,"Cambios en archivos de contraseña, aunque se logran con privilegios adecuados no son comunes y podrían indicar un cambio desconocido.",6.85,phi3:mini
+type=CWD msg=audit(1779747001.360:287):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:287): name=""/etc/passwd""",BAJO,"Auditoría detecta lectura de un archivo común, accesible para todos los usuarios pero sin privilegios específicos.",6.13,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:287):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:288): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",INFO,"Actividad de demonio del sistema relacionada con archivos temporales, que es normal y no afecta la seguridad.",5.82,phi3:mini
+type=CWD msg=audit(1779747001.360:288):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:288): name=""/etc/passwd""",BAJO,Lectura exitosa de archivos generales por usuario sin privilegios.,5.03,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:288):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:289): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",INFO,"Actividad de sistema por demonio del archivo, no representa riesgo directo.",5.2,phi3:mini
+type=CWD msg=audit(1779747001.360:289):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:289): name=""/etc/passwd""",BAJO,"Lectura de archivos no críticos por parte de un usuario sin privilegios, comportamiento normal.",5.47,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:289):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:290): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",MEDIO,"Comando de sistema relacionado con archivos temporales realizado por un usuario sin privilegios, aunque exitoso, se encuentra en una auditoría crítica y requiere revisión.",7.03,phi3:mini
+type=CWD msg=audit(1779747001.360:290):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:290): name=""/etc/passwd""",BAJO,Lectura de archivos generales por un usuario sin privilegios implica riesgo mínimo.,5.48,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:290):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:291): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",INFO,Actividad del demonio systemd-tmpfile sin indicaciones de comportamiento sospechoso.,5.46,phi3:mini
+type=CWD msg=audit(1779747001.360:291):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:291): name=""/etc/passwd""",BAJO,"Lectura exitosa de un archivo general por usuario sin privilegios, no relevante para la seguridad.",5.7,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:291):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:292): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",MEDIO,"Se observa la ejecución del comando systemd-tmpfiles, que puede estar relacionada con el cambio de permisos en archivos como /etc/shadow.",6.59,phi3:mini
+type=CWD msg=audit(1779747001.360:292):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:292): name=""/etc/passwd""",BAJO,"Auditoría exitosa de un archivo no crítico, sin indicadores directos de amenaza.",5.39,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:292):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747001.360:293): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""systemd-tmpfile"" exe=""/usr/bin/systemd-tmpfiles"" key=""passwd_changes""",BAJO,"Modificación de archivos por usuario no privilegiado, ruido del sistema normal.",5.31,phi3:mini
+type=CWD msg=audit(1779747001.360:293):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747001.360:293): name=""/etc/passwd""",BAJO,"Lectura de un archivo general, en este caso el directorio /etc/passwd.",5.54,phi3:mini
+type=PROCTITLE msg=audit(1779747001.360:293):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747078.640:296): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm=""tail"" exe=""/usr/bin/tail"" key=""passwd_changes""",BAJO,Acceso normal a archivo de texto no crítico por usuario con permisos adecuados.,5.62,phi3:mini
+type=CWD msg=audit(1779747078.640:296):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747078.640:296): name=""/etc/passwd""",BAJO,"Lectura exitosa de un archivo general, no hay privilegios especiales.",5.11,phi3:mini
+type=PROCTITLE msg=audit(1779747078.640:296):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747166.340:297): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=1000 comm=""grep"" exe=""/usr/bin/grep"" key=""passwd_changes""",INFO,Actividad común del usuario 'grep' que no afecta la seguridad.,5.2,phi3:mini
+type=CWD msg=audit(1779747166.340:297):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747166.340:297): name=""/etc/passwd""",BAJO,"Lectura de un archivo general por usuario sin privilegios, típica en operaciones no críticas.",5.61,phi3:mini
+type=PROCTITLE msg=audit(1779747166.340:297):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.352:298): syscall=257 success=yes exit=3 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,Uso de sudo indicativo de un proceso que intenta realizar cambios en archivos del sistema.,5.55,phi3:mini
+type=CWD msg=audit(1779747406.352:298):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.352:298): name=""/etc/passwd""",BAJO,Lectura exitosa de un archivo general por usuario sin privilegios que no indica actividad maliciosa.,5.71,phi3:mini
+type=PROCTITLE msg=audit(1779747406.352:298):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.356:299): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Se observa uso de 'sudo' para cambiar contraseñas, lo que podría indicar un intento por escalar privilegios o una táctica de fuerza bruta.",7.06,phi3:mini
+type=CWD msg=audit(1779747406.356:299):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.356:299): name=""/etc/passwd""",BAJO,Lectura exitosa de un archivo general por usuario sin privilegios.,5.02,phi3:mini
+type=PROCTITLE msg=audit(1779747406.356:299):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.356:300): syscall=257 success=yes exit=5 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Uso de sudo para cambios en la contraseña, lo que podría indicar un intento directo o potenzarlo.",6.15,phi3:mini
+type=CWD msg=audit(1779747406.356:300):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.356:300): name=""/etc/passwd""",MEDIO,Escritura a un archivo crítico por usuario sin privilegios podría indicar manejo no autorizado.,5.85,phi3:mini
+type=PROCTITLE msg=audit(1779747406.356:300):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:302): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,Modificación de archivos críticos por privilegios elevados.,4.92,phi3:mini
+type=CWD msg=audit(1779747406.360:302):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:302): name=""/etc/passwd""",INFO,Ruido del sistema observado sin señales de acceso o modificación inapropiada.,5.11,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:302):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:305): syscall=257 success=yes exit=6 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"El comando sudo es un administrador de privilegios, el riesgo depende del usuario y las acciones posteriores a este.",6.13,phi3:mini
+type=CWD msg=audit(1779747406.360:305):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:305): name=""/etc/passwd""",BAJO,Modificación exitosa de un archivo general por usuarios sin privilegios.,5.02,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:305):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:307): syscall=257 success=yes exit=8 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Modificación de archivos usando sudo, posible intento de cambios en las credenciales que podrían indicar un movimiento malicioso.",6.35,phi3:mini
+type=CWD msg=audit(1779747406.360:307):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:307): name=""/etc/passwd""",BAJO,"Lectura exitosa de un archivo general por usuario, sin privilegios elevados.",5.26,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:307):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:308): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",ALTO,"Modificación de archivos críticos relacionados con privilegios, alto riesgo.",5.13,phi3:mini
+type=CWD msg=audit(1779747406.360:308):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:308): name=""/etc/passwd""",BAJO,"Lectura de un archivo general por parte de usuario sin privilegios, lo cual no es inherentemente riesgoso.",5.82,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:308):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:310): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Comando sudo ejecutado, posible cambio de contraseña o creación de usuarios.",5.43,phi3:mini
+type=CWD msg=audit(1779747406.360:310):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:310): name=""/etc/passwd""",MEDIO,Uso de la lectura del archivo /etc/passwd que podría indicar búsqueda de información sensibles.,5.77,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:310):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:311): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,"Uso de sudo para modificar archivos, indicativo posiblemente de escalada de privilegios.",5.58,phi3:mini
+type=CWD msg=audit(1779747406.360:311):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:311): name=""/etc/passwd""",BAJO,Acceso exitoso a un archivo de configuración típico sin indicadores adicionales.,5.31,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:311):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:312): syscall=257 success=yes exit=13 auid=1000 uid=1000 gid=0 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""passwd_changes""",MEDIO,Intento de cambio dentro del sudo sugiere actividades que podrían requerir privilegios elevados.,5.73,phi3:mini
+type=CWD msg=audit(1779747406.360:312):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:312): name=""/etc/passwd""",BAJO,"Lectura de un archivo general por usuario, sin indicar privilegios o acciones no estándares.",5.63,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:312):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini

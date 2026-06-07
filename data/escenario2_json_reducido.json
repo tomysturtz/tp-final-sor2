@@ -1,0 +1,44 @@
+[
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "exe": "/usr/sbin/sshd",
+        "type": "USER_AUTH"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "exe": "/usr/bin/login",
+        "type": "USER_AUTH"
+    },
+    {
+        "uid": "1001",
+        "auid": "1001",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_AUTH"
+    },
+    {
+        "uid": "1001",
+        "auid": "1001",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_CMD"
+    },
+    {
+        "uid": "1001",
+        "auid": "1001",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_CMD"
+    },
+    {
+        "uid": "1001",
+        "auid": "1001",
+        "exe": "/usr/bin/su",
+        "type": "USER_AUTH"
+    },
+    {
+        "uid": "1001",
+        "auid": "1001",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_CMD"
+    }
+]

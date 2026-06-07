@@ -1,0 +1,235 @@
+Log,Riesgo,Justificacion,Tiempo Respuesta (s),Modelo
+"type=CONFIG_CHANGE msg=audit(1779746663.172:258): auid=1000 key=""shadow_access""",BAJO,"Lectura exitosa de archivos generales por un usuario, sin indicaciones de privilegios elevados ni actividades sospechosas.",10.13,phi3:mini
+"type=SYSCALL msg=audit(1779746663.172:258): syscall=44 success=yes exit=1080 auid=1000 uid=0 gid=0 euid=0 comm=""auditctl"" exe=""/usr/sbin/auditctl"" key=(null)",INFO,Actividad de demonio del sistema auditd normal sin indicadores de seguridad.,5.08,phi3:mini
+type=SOCKADDR msg=audit(1779746663.172:258):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+type=CWD msg=audit(1779746663.172:258):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746663.172:258): name=""/etc/""",INFO,Lectura de directorio general sin indicadores específicos de riesgo.,4.79,phi3:mini
+type=PROCTITLE msg=audit(1779746663.172:258):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779746681.800:266): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de sudo para ejecutar comandos no elevados, posiblemente sin justificación adecuada.",5.52,phi3:mini
+type=CWD msg=audit(1779746681.800:266):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779746681.800:266): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo de credenciales críticas, indicativo de un intento de compromiso.",5.48,phi3:mini
+type=PROCTITLE msg=audit(1779746681.800:266):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747406.360:303): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso exitoso de sudo, pero sin mencion específica del comando ejecutado posteriormente.",5.52,phi3:mini
+type=CWD msg=audit(1779747406.360:303):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747406.360:303): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo de credenciales, señalando posibles intentos de inicio de sesión no autorizados.",5.91,phi3:mini
+type=PROCTITLE msg=audit(1779747406.360:303):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747421.900:318): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm=""cron"" exe=""/usr/sbin/cron"" key=""shadow_access""",INFO,Actividad de demonio cron sin relevancia inmediata para la seguridad.,5.04,phi3:mini
+type=CWD msg=audit(1779747421.900:318):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747421.900:318): name=""/etc/shadow""",ALTO,"Acceso denegado en un archivo de credenciales crítico, lo que sugiere una actividad sospechosa o maliciosa.",6.16,phi3:mini
+type=PROCTITLE msg=audit(1779747421.900:318):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747428.856:337): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de 'sudo' por un usuario no privilegiado, indicativo potencial de mal uso.",5.59,phi3:mini
+type=CWD msg=audit(1779747428.856:337):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747428.856:337): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo de credenciales crítico, evidencia clara del riesgo alto.",5.53,phi3:mini
+type=PROCTITLE msg=audit(1779747428.856:337):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779747500.148:356): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,Uso de sudo que puede indicar intento potencialmente no autorizado para acceder a elevados privilegios.,6.15,phi3:mini
+type=CWD msg=audit(1779747500.148:356):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779747500.148:356): name=""/etc/shadow""",BAJO,"Lectura de archivo normal, no hay cambios significativos.",4.76,phi3:mini
+type=PROCTITLE msg=audit(1779747500.148:356):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748055.680:380): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",MEDIO,"Auditoría de logicaSSHD, el uso normal con permisos para root.",5.36,phi3:mini
+type=CWD msg=audit(1779748055.680:380):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748055.680:380): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo /etc/shadow, una violación de la seguridad crítica.",5.36,phi3:mini
+type=PROCTITLE msg=audit(1779748055.680:380):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748055.688:384): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",INFO,"Actividad de demonio SSH normal con acceso basal, sin relevancia para riesgos.",5.21,phi3:mini
+type=CWD msg=audit(1779748055.688:384):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748055.688:384): name=""/etc/shadow""",ALTO,Intento de lectura denegada en archivos de credenciales críticos sugiere actividad maliciosa.,5.54,phi3:mini
+type=PROCTITLE msg=audit(1779748055.688:384):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748055.696:394): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",INFO,Actividad de demonio del sistema (sshd) sin relevancia inmediata para la seguridad.,5.39,phi3:mini
+type=CWD msg=audit(1779748055.696:394):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748055.696:394): name=""/etc/shadow""",BAJO,Lectura exitosa de archivos generales por usuarios no privilegiados.,5.08,phi3:mini
+type=PROCTITLE msg=audit(1779748055.696:394):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748076.428:480): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Intento exitoso de cambio elevado, puede indicar una intentona pero es controlada.",5.31,phi3:mini
+type=CWD msg=audit(1779748076.428:480):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748076.428:480): name=""/etc/shadow""",ALTO,Acceso denegado al archivo /etc/shadow es crítico y su alteración podría comprometer la autenticación de usuarios.,5.92,phi3:mini
+type=PROCTITLE msg=audit(1779748076.428:480):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748078.316:482): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"El comando 'sudo' indica que se intentó ejecutar una acción con privilegios elevados, pero sin errores de seguridad notorios.",6.56,phi3:mini
+type=CWD msg=audit(1779748078.316:482):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748078.316:482): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo de credenciales crítico, sugiriendo una actividad sospechosa o maliciosa.",5.97,phi3:mini
+type=PROCTITLE msg=audit(1779748078.316:482):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748078.320:486): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de 'sudo' registrado por un usuario, lo cual podría indicar una posible escalada a privilegios elevados.",6.08,phi3:mini
+type=CWD msg=audit(1779748078.320:486):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748078.320:486): name=""/etc/shadow""",ALTO,Acceso denegado intencional a la base de credenciales es un sello para actividades maliciosas.,5.55,phi3:mini
+type=PROCTITLE msg=audit(1779748078.320:486):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748215.588:543): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso exitoso de sudo para comandos administrativos, puede ser seguro dependiendo del contexto.",5.43,phi3:mini
+type=CWD msg=audit(1779748215.588:543):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748215.588:543): name=""/etc/shadow""",ALTO,"Modificación de archivos críticos relacionados con credenciales, fortaleciendo sospechas sobre una posible violación.",5.66,phi3:mini
+type=PROCTITLE msg=audit(1779748215.588:543):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748378.332:566): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso exitoso de sudo que no implica inmediatamente una amenaza, pero indica la ejecución poten0cialmente peligrosa.",6.37,phi3:mini
+type=CWD msg=audit(1779748378.332:566):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748378.332:566): name=""/etc/shadow""",BAJO,"Lectura de archivos críticos como /etc/shadow por usuarios sin privilegios, no suele indicar una amenaza directa a la seguridad.",6.46,phi3:mini
+type=PROCTITLE msg=audit(1779748378.332:566):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748378.344:581): syscall=257 success=yes exit=10 auid=1000 uid=0 gid=0 euid=0 comm=""useradd"" exe=""/usr/sbin/useradd"" key=""shadow_access""",ALTO,"Comando useradd ejecutado, indicativo de comandos persistentes y posibles intentos de creación no autorizada.",5.77,phi3:mini
+type=CWD msg=audit(1779748378.344:581):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748378.344:581): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo de credenciales crítico, indicativo de un intento directo para manipular contraseñas.",5.88,phi3:mini
+type=PROCTITLE msg=audit(1779748378.344:581):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748378.376:587): syscall=82 success=yes exit=0 auid=1000 uid=0 gid=0 euid=0 comm=""useradd"" exe=""/usr/sbin/useradd"" key=""shadow_access""",MEDIO,"Creear usuarios concomitancias entre UID, GID y EUID puede ser un método para adquirir privilegios elevados sin necesidad de autenticación directa.",6.97,phi3:mini
+type=CWD msg=audit(1779748378.376:587):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748378.376:587): name=""/etc/""",ALTO,"Se indica un intento de lectura en el directorio '/etc/', potencialmente relacionado con archivos confidenciales.",5.88,phi3:mini
+"type=PATH msg=audit(1779748378.376:587): name=""/etc/""",ALTO,"Modificación de directorios críticos en el sistema, potencial acceso a archivos sensibles.",4.92,phi3:mini
+"type=PATH msg=audit(1779748378.376:587): name=""/etc/shadow+""",ALTO,"Intento de lectura denegado en el archivo shadow, implica intentos de acceso no autorizado.",5.46,phi3:mini
+"type=PATH msg=audit(1779748378.376:587): name=""/etc/shadow""",ALTO,"Acceso denegado (exit=-13) a un archivo crítico de credenciales, sugiriendo actividad maliciosa.",5.96,phi3:mini
+"type=PATH msg=audit(1779748378.376:587): name=""/etc/shadow""",ALTO,"Acceso denegado exit=-13 a credenciales críticas, fuerte indicador de compromiso.",5.24,phi3:mini
+type=PROCTITLE msg=audit(1779748378.376:587):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748594.352:602): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,Uso de comando sudo para ejecutar comandos con privilegios elevados.,5.26,phi3:mini
+type=CWD msg=audit(1779748594.352:602):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748594.352:602): name=""/etc/shadow""",ALTO,Modificación o acceso no autorizado a credenciales críticas es un signo claro de ataque.,5.44,phi3:mini
+type=PROCTITLE msg=audit(1779748594.352:602):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748683.232:622): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de la herramienta sudo para ejecutar comandos con privilegios elevados, aunque exitoso en este caso.",5.94,phi3:mini
+type=CWD msg=audit(1779748683.232:622):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748683.232:622): name=""/etc/shadow""",ALTO,"Acceso denegado a archivos críticos de credenciales, lo que sugiere una violación potensia.",5.73,phi3:mini
+type=PROCTITLE msg=audit(1779748683.232:622):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779748824.984:648): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"El log muestra el uso de 'sudo', indicativo de un intento administrativo. La ejecución exitosa con permisos elevados puede ser insegura si no se justifica por una acción específica.",7.44,phi3:mini
+type=CWD msg=audit(1779748824.984:648):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779748824.984:648): name=""/etc/shadow""",ALTO,"Acceso denegado (exit=-13) a credenciales críticas, fuerte indicador de compromiso.",5.58,phi3:mini
+type=PROCTITLE msg=audit(1779748824.984:648):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749040.408:669): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de 'sudo' por un usuario con privilegios, pero sin indicaciones adicionales que sugieran actividad maliciosa.",6.35,phi3:mini
+type=CWD msg=audit(1779749040.408:669):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749040.408:669): name=""/etc/shadow""",ALTO,"Se observa un acceso denegado a la clave '/etc/shadow', lo que indica una actividad sospechosa como intento de hacking o inyección SQL.",6.82,phi3:mini
+type=PROCTITLE msg=audit(1779749040.408:669):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749098.800:689): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de 'sudo' por usuario no privilegiado sujeta a autenticación exitosa, indicativo moderado.",5.87,phi3:mini
+type=CWD msg=audit(1779749098.800:689):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749098.800:689): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.1,phi3:mini
+type=PROCTITLE msg=audit(1779749098.800:689):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749171.480:710): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm=""login"" exe=""/usr/bin/login"" key=""shadow_access""",INFO,"Inicio de sesión con éxito, sin indicadores inusuales.",4.93,phi3:mini
+type=CWD msg=audit(1779749171.480:710):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749171.480:710): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.11,phi3:mini
+type=PROCTITLE msg=audit(1779749171.480:710):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749177.904:715): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm=""login"" exe=""/usr/bin/login"" key=""shadow_access""",INFO,Actividad de login normal sin indicadores de seguridad preocupantes.,4.94,phi3:mini
+type=CWD msg=audit(1779749177.904:715):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749177.904:715): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo crontab, potencialmente una señal de que los atacantes están haciendo pruebas para ver si pueden obtener acceso no autorizado a la información sensible.",6.91,phi3:mini
+type=PROCTITLE msg=audit(1779749177.904:715):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749177.912:720): syscall=257 success=yes exit=3 auid=4294967295 uid=0 gid=0 euid=0 comm=""login"" exe=""/usr/bin/login"" key=""shadow_access""",INFO,"Actividad normal de autenticación, no representa un riesgo elevado.",4.95,phi3:mini
+type=CWD msg=audit(1779749177.912:720):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749177.912:720): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo /etc/shadow, lo que indica una posible robo de credenciales o intento directo por parte de un atacante.",6.39,phi3:mini
+type=PROCTITLE msg=audit(1779749177.912:720):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749178.356:801): syscall=257 success=yes exit=4 auid=1000 uid=0 gid=0 euid=0 comm=""login"" exe=""/usr/bin/login"" key=""shadow_access""",INFO,"Actividad normal de autenticación por parte del usuario root, no hay indicador de seguridad.",5.37,phi3:mini
+type=CWD msg=audit(1779749178.356:801):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749178.356:801): name=""/etc/shadow""",ALTO,"Acceso denegado (exit=-13) a credenciales críticas, fuerte indicador de compromiso.",5.54,phi3:mini
+type=PROCTITLE msg=audit(1779749178.356:801):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749178.384:808): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm=""(systemd)"" exe=""/usr/lib/systemd/systemd"" key=""shadow_access""",BAJO,"Auditoría de sistema que revela la ejecución normal del demonio systemd, sin actividades sospechosas o cambios en los privilegios.",6.55,phi3:mini
+type=CWD msg=audit(1779749178.384:808):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749178.384:808): name=""/etc/shadow""",ALTO,"Acceso denegado encontrado a credenciales críticas, sugiriendo un posible intento de infiltración.",5.68,phi3:mini
+type=PROCTITLE msg=audit(1779749178.384:808):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749178.388:819): syscall=257 success=yes exit=8 auid=1000 uid=0 gid=0 euid=0 comm=""(systemd)"" exe=""/usr/lib/systemd/systemd"" key=""shadow_access""",INFO,"Actividad de demonio del sistema, indicando que el comando ""systemd"" se ejecutó exitosamente sin señales anormales.",6.08,phi3:mini
+type=CWD msg=audit(1779749178.388:819):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749178.388:819): name=""/etc/shadow""",ALTO,"Modificación de archivos críticos, denegado acceso a credenciales.",4.96,phi3:mini
+type=PROCTITLE msg=audit(1779749178.388:819):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749231.584:846): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",INFO,"Actividad normal del demonio ssh, con acceso exitoso a credenciales no relacionadas y sin privilegios elevados.",5.86,phi3:mini
+type=CWD msg=audit(1779749231.584:846):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749231.584:846): name=""/etc/shadow""",BAJO,Acceso normal y exitoso a archivos compartidos sin privilegios.,4.84,phi3:mini
+type=PROCTITLE msg=audit(1779749231.584:846):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749231.592:850): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",BAJO,Uso normalizado del servidor SSH con acceso y privilegios restringidos.,5.3,phi3:mini
+type=CWD msg=audit(1779749231.592:850):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749231.592:850): name=""/etc/shadow""",BAJO,Lectura de archivos generales por parte de un usuario no autorizado.,4.97,phi3:mini
+type=PROCTITLE msg=audit(1779749231.592:850):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749231.600:860): syscall=257 success=yes exit=5 auid=1000 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",INFO,Actividad de demonio SSH sin relevancia directa para la seguridad.,5.34,phi3:mini
+type=CWD msg=audit(1779749231.600:860):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749231.600:860): name=""/etc/shadow""",ALTO,Acceso denegado al archivo de credenciales crítico sugiriendo posibles intentos fallidos o actividad maliciosa.,5.89,phi3:mini
+type=PROCTITLE msg=audit(1779749231.600:860):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749231.628:867): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm=""(systemd)"" exe=""/usr/lib/systemd/systemd"" key=""shadow_access""",INFO,"Actividad del demonio systemd, normal y no representa un riesgo para la seguridad.",5.72,phi3:mini
+type=CWD msg=audit(1779749231.628:867):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749231.628:867): name=""/etc/shadow""",ALTO,"Acceso denegado en el archivo /etc/shadow, un acceso controlado a credenciales críticas es indicativo de actividades maliciosas.",6.26,phi3:mini
+type=PROCTITLE msg=audit(1779749231.628:867):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749231.632:878): syscall=257 success=yes exit=8 auid=1000 uid=0 gid=0 euid=0 comm=""(systemd)"" exe=""/usr/lib/systemd/systemd"" key=""shadow_access""",ERROR_PARSE,"FALLO_LLM: {""riesgo"": ""MEDIO"", ""justificacion"": ""Acceso exitoso al sistema con superusuario, aunque el uso de la shell (cmd=exeu) no es específic078-2951346:info...",14.45,phi3:mini
+type=CWD msg=audit(1779749231.632:878):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749231.632:878): name=""/etc/shadow""",ALTO,"Acceso denegado ('exit=-13') a un archivo crítico que contiene credenciales, sugiere una posible explotación de seguridad.",6.29,phi3:mini
+type=PROCTITLE msg=audit(1779749231.632:878):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749285.580:954): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",BAJO,Actividad normal de SSHD no representa un riesgo significativo.,4.93,phi3:mini
+type=CWD msg=audit(1779749285.580:954):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749285.580:954): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo /etc/shadow, un indicador significativo de seguridad comprometida.",5.5,phi3:mini
+type=PROCTITLE msg=audit(1779749285.580:954):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749285.644:958): syscall=257 success=yes exit=5 auid=4294967295 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",MEDIO,"Comando de conexión SSH ejecutado, aceptable para servicio en línea pero puede indicar intentos sospechosos sin más contexto.",6.39,phi3:mini
+type=CWD msg=audit(1779749285.644:958):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749285.644:958): name=""/etc/shadow""",ALTO,Autorización denegada en la lectura de credenciales críticas es indicativo directo del mal uso.,5.5,phi3:mini
+type=PROCTITLE msg=audit(1779749285.644:958):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749285.652:968): syscall=257 success=yes exit=5 auid=1001 uid=0 gid=0 euid=0 comm=""sshd"" exe=""/usr/sbin/sshd"" key=""shadow_access""",INFO,Actividad de demonio SSH normal exitosa con privilegios elevados.,4.87,phi3:mini
+type=CWD msg=audit(1779749285.652:968):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749285.652:968): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo criptografico de credenciales críticas, lo que puede indicar un intento de fuerza bruta.",6.11,phi3:mini
+type=PROCTITLE msg=audit(1779749285.652:968):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749285.684:975): syscall=257 success=yes exit=7 auid=4294967295 uid=0 gid=0 euid=0 comm=""(systemd)"" exe=""/usr/lib/systemd/systemd"" key=""shadow_access""",INFO,Uso del demonio systemd para operaciones sistemas típicas con no privilegios elevados.,5.42,phi3:mini
+type=CWD msg=audit(1779749285.684:975):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749285.684:975): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo /etc/shadow, crucial para el acceso a credenciales.",5.42,phi3:mini
+type=PROCTITLE msg=audit(1779749285.684:975):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749285.684:986): syscall=257 success=yes exit=8 auid=1001 uid=0 gid=0 euid=0 comm=""(systemd)"" exe=""/usr/lib/systemd/systemd"" key=""shadow_access""",MEDIO,"Se observa el uso de comandos administrativos, como systemd, por parte del usuario root. No obstante, la acción se llevó a cabo exitosamente sin error.",6.9,phi3:mini
+type=CWD msg=audit(1779749285.684:986):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749285.684:986): name=""/etc/shadow""",BAJO,Acceso exitoso al archivo /etc/shadow sin indicación de cambios o actividades sospechosas.,5.58,phi3:mini
+type=PROCTITLE msg=audit(1779749285.684:986):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749346.256:1074): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"La actividad del usuario root se observa intentando el comando 'sudo', que generalmente indica una operación administrativa potenzadamente, pero con éxito y sin errores.",6.98,phi3:mini
+type=CWD msg=audit(1779749346.256:1074):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749346.256:1074): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.13,phi3:mini
+type=PROCTITLE msg=audit(1779749346.256:1074):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749365.372:1076): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de comando sudo para cambiar privilegios, aunque exitoso esta actividad puede indicar intento de escalada.",5.94,phi3:mini
+type=CWD msg=audit(1779749365.372:1076):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749365.372:1076): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, indicativo de un intento o cometer una brecha.",5.52,phi3:mini
+type=PROCTITLE msg=audit(1779749365.372:1076):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749367.312:1079): syscall=257 success=yes exit=8 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Intento exitoso de cambio de usuario con sudo, posible intento de escalada a privilegios elevados.",5.72,phi3:mini
+type=CWD msg=audit(1779749367.312:1079):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749367.312:1079): name=""/etc/shadow""",ALTO,"Acceso denegado a archivos de credenciales, indicando potenzada actividad maliciosa.",5.48,phi3:mini
+type=PROCTITLE msg=audit(1779749367.312:1079):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749376.260:1081): syscall=257 success=yes exit=8 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,La ejecución de 'sudo' para acceder a archivos o comandos con privilegios elevados sugiere una actividad administrativa que podría tener implicaciones si se usa inadecuadamente.,7.19,phi3:mini
+type=CWD msg=audit(1779749376.260:1081):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749376.260:1081): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.12,phi3:mini
+type=PROCTITLE msg=audit(1779749376.260:1081):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749376.300:1085): syscall=257 success=yes exit=8 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso del comando sudo, lo que indica posibles intentos de escalada de privilegios.",5.62,phi3:mini
+type=CWD msg=audit(1779749376.300:1085):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749376.300:1085): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.21,phi3:mini
+type=PROCTITLE msg=audit(1779749376.300:1085):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749420.932:1093): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de 'sudo' indicativo de privilegios elevados, aunque exitoso.",5.23,phi3:mini
+type=CWD msg=audit(1779749420.932:1093):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749420.932:1093): name=""/etc/shadow""",ALTO,"Acceso denegado al archivo criptografico de credenciales, lo cual sugiere una operación maliciosa.",5.74,phi3:mini
+type=PROCTITLE msg=audit(1779749420.932:1093):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749428.384:1095): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso del comando 'sudo' que puede implicar cambios de privilegios, aunque esta entrada no indica acciones maliciosas directamente.",6.38,phi3:mini
+type=CWD msg=audit(1779749428.384:1095):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749428.384:1095): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.11,phi3:mini
+type=PROCTITLE msg=audit(1779749428.384:1095):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749428.424:1099): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Intento de acceso elevado a privilegios con sudo, que puede ser parte de un intento legítimo o malicioso.",6.09,phi3:mini
+type=CWD msg=audit(1779749428.424:1099):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749428.424:1099): name=""/etc/shadow""",ALTO,"Acceso denegado a archivo credenciales crítico, lo que puede indicar un intento de inicio de sesión no autorizado.",6.0,phi3:mini
+type=PROCTITLE msg=audit(1779749428.424:1099):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749504.060:1105): syscall=257 success=yes exit=3 auid=1001 uid=1001 gid=1001 euid=0 comm=""su"" exe=""/usr/bin/su"" key=""shadow_access""",MEDIO,"El comando 'sudo su' con éxito indica que se ejecutó como el usuario root, lo cual puede representar un potencial riesgo de seguridad.",6.72,phi3:mini
+type=CWD msg=audit(1779749504.060:1105):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749504.060:1105): name=""/etc/shadow""",BAJO,"Lectura de archivo crítico realizada por un usuario sin privilegios, generalmente no representa una amenaza.",5.71,phi3:mini
+type=PROCTITLE msg=audit(1779749504.060:1105):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749506.908:1107): syscall=257 success=yes exit=3 auid=1001 uid=1001 gid=1001 euid=0 comm=""su"" exe=""/usr/bin/su"" key=""shadow_access""",MEDIO,"Intento exitoso de cambio de usuario a través del comando su, que requiere privilegios elevados.",5.6,phi3:mini
+type=CWD msg=audit(1779749506.908:1107):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749506.908:1107): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.89,phi3:mini
+type=PROCTITLE msg=audit(1779749506.908:1107):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749615.208:1114): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"El log muestra el uso de 'sudo' para acceder a archivos, lo que puede indicar un intento controlado o no autorizado pero con éxito.",6.59,phi3:mini
+type=CWD msg=audit(1779749615.208:1114):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749615.208:1114): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.11,phi3:mini
+type=PROCTITLE msg=audit(1779749615.208:1114):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749624.816:1116): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Utilización de 'sudo' que podría indicar intento seguro o no, sin señales adicionales.",5.68,phi3:mini
+type=CWD msg=audit(1779749624.816:1116):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749624.816:1116): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.09,phi3:mini
+type=PROCTITLE msg=audit(1779749624.816:1116):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749624.856:1120): syscall=257 success=yes exit=7 auid=1001 uid=1001 gid=1001 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso del comando 'sudo' por usuario, indica posibilidad de acceso elevado al sistema.",5.64,phi3:mini
+type=CWD msg=audit(1779749624.856:1120):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749624.856:1120): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.1,phi3:mini
+type=PROCTITLE msg=audit(1779749624.856:1120):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749667.152:1128): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"La ejecución del comando 'sudo' indica un intento de escalada de privilegios, que puede ser una amenaza para la seguridad si no está controlada.",6.77,phi3:mini
+type=CWD msg=audit(1779749667.152:1128):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749667.152:1128): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.13,phi3:mini
+type=PROCTITLE msg=audit(1779749667.152:1128):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749669.664:1130): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Acceso exitoso al comando sudo, podría ser uso autorizado o malicioso.",5.56,phi3:mini
+type=CWD msg=audit(1779749669.664:1130):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749669.664:1130): name=""/etc/shadow""",ALTO,Acceso denegado a credenciales críticas indicativo de intento de hacking.,5.13,phi3:mini
+type=PROCTITLE msg=audit(1779749669.664:1130):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749669.672:1134): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Utilización de 'sudo' por usuario, que puede indicar una actividad administrativa no necesaria o un intento potencial de escalada de privilegios.",6.6,phi3:mini
+type=CWD msg=audit(1779749669.672:1134):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749669.672:1134): name=""/etc/shadow""",ALTO,Autorretrascripción de archivos '/etc/shadow' es una operación altamente sensible que sugiere acceso no autorizado y posibles fallos en la autenticación.,6.71,phi3:mini
+type=PROCTITLE msg=audit(1779749669.672:1134):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779749927.740:1152): syscall=257 success=no exit=-13 auid=1001 uid=1001 gid=1001 euid=1001 comm=""cat"" exe=""/usr/bin/cat"" key=""shadow_access""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.28,phi3:mini
+type=CWD msg=audit(1779749927.740:1152):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779749927.740:1152): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.12,phi3:mini
+type=PROCTITLE msg=audit(1779749927.740:1152):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779750010.572:1153): syscall=257 success=no exit=-13 auid=1001 uid=1001 gid=1001 euid=1001 comm=""head"" exe=""/usr/bin/head"" key=""shadow_access""",ALTO,Acceso denegado a credenciales críticas en un comando no administrativo.,5.46,phi3:mini
+type=CWD msg=audit(1779750010.572:1153):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779750010.572:1153): name=""/etc/shadow""",ALTO,"Acción denegada con exit=-13 en la lectura de archivos criptográficos, sugestión grave para acceso no autorizado.",6.0,phi3:mini
+type=PROCTITLE msg=audit(1779750010.572:1153):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779750068.296:1154): syscall=257 success=no exit=-13 auid=1001 uid=1001 gid=1001 euid=1001 comm=""cp"" exe=""/usr/bin/cp"" key=""shadow_access""",ALTO,"Intento fallido de copiar archivos críticos, sugiriendo intentos maliciosos.",5.39,phi3:mini
+type=CWD msg=audit(1779750068.296:1154):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779750068.296:1154): name=""/etc/shadow""",ALTO,"Modificación de archivos críticos que contienen credenciales del sistema, fuerte indicador de compromiso.",5.42,phi3:mini
+type=PROCTITLE msg=audit(1779750068.296:1154):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=SYSCALL msg=audit(1779750128.964:1160): syscall=257 success=yes exit=7 auid=1000 uid=1000 gid=1000 euid=0 comm=""sudo"" exe=""/usr/bin/sudo"" key=""shadow_access""",MEDIO,"Uso de 'sudo' para acceder al sistema, lo que podría indicar una actividad no autorizada o maliciosa.",5.93,phi3:mini
+type=CWD msg=audit(1779750128.964:1160):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini
+"type=PATH msg=audit(1779750128.964:1160): name=""/etc/shadow""",ALTO,"Acceso denegado a credenciales críticas, fuerte indicador de compromiso.",5.21,phi3:mini
+type=PROCTITLE msg=audit(1779750128.964:1160):,INFO,Omitido del análisis LLM por falta de campos relevantes.,0.0,phi3:mini

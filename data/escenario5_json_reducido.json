@@ -1,0 +1,1337 @@
+[
+    {
+        "auid": "1000",
+        "key": "shadow_access",
+        "type": "CONFIG_CHANGE"
+    },
+    {
+        "syscall": "44",
+        "success": "yes",
+        "exit": "1080",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "auditctl",
+        "exe": "/usr/sbin/auditctl",
+        "key": "(null)",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "SOCKADDR"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "cron",
+        "exe": "/usr/sbin/cron",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "10",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "useradd",
+        "exe": "/usr/sbin/useradd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "82",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "useradd",
+        "exe": "/usr/sbin/useradd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/shadow+",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "login",
+        "exe": "/usr/bin/login",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "login",
+        "exe": "/usr/bin/login",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "login",
+        "exe": "/usr/bin/login",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "4",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "login",
+        "exe": "/usr/bin/login",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "(systemd)",
+        "exe": "/usr/lib/systemd/systemd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "(systemd)",
+        "exe": "/usr/lib/systemd/systemd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "(systemd)",
+        "exe": "/usr/lib/systemd/systemd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "(systemd)",
+        "exe": "/usr/lib/systemd/systemd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1001",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sshd",
+        "exe": "/usr/sbin/sshd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "(systemd)",
+        "exe": "/usr/lib/systemd/systemd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1001",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "(systemd)",
+        "exe": "/usr/lib/systemd/systemd",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "su",
+        "exe": "/usr/bin/su",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "su",
+        "exe": "/usr/bin/su",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "no",
+        "exit": "-13",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "1001",
+        "comm": "cat",
+        "exe": "/usr/bin/cat",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "no",
+        "exit": "-13",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "1001",
+        "comm": "head",
+        "exe": "/usr/bin/head",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "no",
+        "exit": "-13",
+        "auid": "1001",
+        "uid": "1001",
+        "gid": "1001",
+        "euid": "1001",
+        "comm": "cp",
+        "exe": "/usr/bin/cp",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    }
+]

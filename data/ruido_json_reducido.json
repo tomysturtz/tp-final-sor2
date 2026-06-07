@@ -1,0 +1,2605 @@
+[
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "xdelta3",
+        "exe": "/snap/snapd/21759/usr/bin/xdelta3",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/snap/snapd/current/usr/bin/xdelta3",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/systemd-tmpfiles",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tmpfile",
+        "exe": "/usr/bin/systemd-tmpfiles",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "comm": "systemd",
+        "exe": "/usr/lib/systemd/systemd",
+        "type": "SERVICE_START"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "comm": "systemd",
+        "exe": "/usr/lib/systemd/systemd",
+        "type": "SERVICE_STOP"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "1000",
+        "comm": "nano",
+        "exe": "/usr/bin/nano",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_AUTH"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_ACCT"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "6",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_CMD"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "CRED_REFR"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_START"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "apt",
+        "exe": "/usr/bin/apt",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/apt",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "dpkg",
+        "exe": "/usr/bin/dpkg",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/dpkg",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "4",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "apt",
+        "exe": "/usr/bin/apt",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "4",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "apt",
+        "exe": "/usr/bin/apt",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "http",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/http",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sh",
+        "exe": "/usr/bin/dash",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/bin/sh",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "id",
+        "exe": "/usr/bin/id",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/id",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemctl",
+        "exe": "/usr/bin/systemctl",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/systemctl",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "systemd-tty-ask",
+        "exe": "/usr/bin/systemd-tty-ask-password-agent",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/bin/systemd-tty-ask-password-agent",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/python3",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/python3",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "apt",
+        "exe": "/usr/bin/apt",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "http",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/http",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "http",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/http",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "http",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "http",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "ubuntu-distro-i",
+        "exe": "/usr/bin/ubuntu-distro-info",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/ubuntu-distro-info",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "https",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/https",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "https",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/https",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "https",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "ubuntu-distro-i",
+        "exe": "/usr/bin/ubuntu-distro-info",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/ubuntu-distro-info",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "dpkg",
+        "exe": "/usr/bin/dpkg",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/dpkg",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "dpkg",
+        "exe": "/usr/bin/dpkg",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/dpkg",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "https",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/https",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "4",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "python3",
+        "exe": "/usr/bin/python3.10",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "https",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "BPRM_FCAPS"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/lib/apt/methods/https",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "4294967295",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "https",
+        "exe": "/usr/lib/apt/methods/http",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "dpkg",
+        "exe": "/usr/bin/dpkg",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/dpkg",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "comm": "systemd",
+        "exe": "/usr/lib/systemd/systemd",
+        "type": "SERVICE_START"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "comm": "systemd",
+        "exe": "/usr/lib/systemd/systemd",
+        "type": "SERVICE_STOP"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "comm": "systemd",
+        "exe": "/usr/lib/systemd/systemd",
+        "type": "SERVICE_START"
+    },
+    {
+        "uid": "0",
+        "auid": "4294967295",
+        "comm": "systemd",
+        "exe": "/usr/lib/systemd/systemd",
+        "type": "SERVICE_STOP"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "dpkg",
+        "exe": "/usr/bin/dpkg",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/bin/dpkg",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_END"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "CRED_DISP"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_ACCT"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "6",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_CMD"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "CRED_REFR"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_START"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "ausearch",
+        "exe": "/usr/sbin/ausearch",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/sbin/ausearch",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_END"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "CRED_DISP"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "3",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "5",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "1000",
+        "euid": "1",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "sudoers_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/sudoers",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "7",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "shadow_access",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/shadow",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_ACCT"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "6",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_CMD"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "8",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "1000",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "CRED_REFR"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "syscall": "257",
+        "success": "yes",
+        "exit": "13",
+        "auid": "1000",
+        "uid": "1000",
+        "gid": "0",
+        "euid": "0",
+        "comm": "sudo",
+        "exe": "/usr/bin/sudo",
+        "key": "passwd_changes",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/etc/passwd",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    },
+    {
+        "uid": "1000",
+        "auid": "1000",
+        "exe": "/usr/bin/sudo",
+        "type": "USER_START"
+    },
+    {
+        "syscall": "59",
+        "success": "yes",
+        "exit": "0",
+        "auid": "1000",
+        "uid": "0",
+        "gid": "0",
+        "euid": "0",
+        "comm": "ausearch",
+        "exe": "/usr/sbin/ausearch",
+        "key": "root_commands",
+        "type": "SYSCALL"
+    },
+    {
+        "type": "EXECVE"
+    },
+    {
+        "type": "CWD"
+    },
+    {
+        "name": "/usr/sbin/ausearch",
+        "type": "PATH"
+    },
+    {
+        "name": "/lib64/ld-linux-x86-64.so.2",
+        "type": "PATH"
+    },
+    {
+        "type": "PROCTITLE"
+    }
+]
