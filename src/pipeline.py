@@ -6,15 +6,17 @@ import time
 # Configuración
 OLLAMA_URL = 'http://localhost:11434/api/generate'
 # phi3:mini o llama3.2:3b
-MODEL = 'phi3:mini'
-ESCENARIO = 'escenario2'
+MODEL = 'llama3.2:3b'
+ESCENARIO = 'escenario1'
 # Elegir formato a probar: 'raw_completo', 'raw_reducido' o 'json_reducido'
 FORMATO_ENTRADA = 'raw_completo'
 # Elegir entre 'prompt1','prompt2','prompt3'
-PROMPT_UTILIZAR = 'prompt2'
+PROMPT_UTILIZAR = 'prompt1'
 
 if MODEL == 'phi3:mini':
     modelo = 'phi3mini'
+if MODEL == 'llama3.2:3b':
+    modelo = 'llama3-2_3b'
 
 if FORMATO_ENTRADA == 'raw_completo':
     INPUT_FILE = f'data/{ESCENARIO}_raw.log'
