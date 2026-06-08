@@ -2,17 +2,16 @@ import requests
 import json
 import csv
 import time
-import os
 
 # Configuración
 OLLAMA_URL = 'http://localhost:11434/api/generate'
 # phi3:mini o llama3.2:3b
 MODEL = 'phi3:mini'
-ESCENARIO = 'escenario1'
+ESCENARIO = 'escenario2'
 # Elegir formato a probar: 'raw_completo', 'raw_reducido' o 'json_reducido'
-FORMATO_ENTRADA = 'raw_reducido'
+FORMATO_ENTRADA = 'raw_completo'
 # Elegir entre 'prompt1','prompt2','prompt3'
-PROMPT_UTILIZAR = 'prompt3'
+PROMPT_UTILIZAR = 'prompt2'
 
 if MODEL == 'phi3:mini':
     modelo = 'phi3mini'
