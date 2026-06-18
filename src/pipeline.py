@@ -6,8 +6,8 @@ import time
 # Configuración
 OLLAMA_URL = 'http://localhost:11434/api/generate'
 # phi3:mini o llama3.2:3b
-MODEL = 'llama3.2:3b'
-ESCENARIO = 'escenario1'
+MODEL = 'phi3:mini'
+ESCENARIO = 'escenario5'
 # Elegir formato a probar: 'raw_completo', 'raw_reducido' o 'json_reducido'
 FORMATO_ENTRADA = 'raw_completo'
 # Elegir entre 'prompt1','prompt2','prompt3'
@@ -26,7 +26,7 @@ elif FORMATO_ENTRADA == 'json_reducido':
     INPUT_FILE = f'data/{ESCENARIO}_json_reducido.json'
 
 if PROMPT_UTILIZAR == 'prompt1':
-    OUTPUT_FILE = f'results/{PROMPT_UTILIZAR}/{ESCENARIO}_resultados_{FORMATO_ENTRADA}_{modelo}.csv'
+    OUTPUT_FILE = f'results/{PROMPT_UTILIZAR}/{ESCENARIO}_resultados_{FORMATO_ENTRADA}_{modelo}_5.csv'
 elif PROMPT_UTILIZAR == 'prompt2':
     OUTPUT_FILE = f'results/{PROMPT_UTILIZAR}/{ESCENARIO}_resultados_{FORMATO_ENTRADA}_{modelo}.csv'
 elif PROMPT_UTILIZAR == 'prompt3':
