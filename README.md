@@ -48,7 +48,7 @@ Para ejecutar este proyecto de forma local, es necesario contar con:
    * `PROMPT_UTILIZAR`: Estrategia de prompt (`'prompt1'`, `'prompt2'` o `'prompt3'`).
 
 2. **Ejecutar el pipeline:**
-   Correr el script desde la raíz del repositorio para iniciar el análisis:
+   Correr el script desde la raíz del proyecto para iniciar el análisis de los logs según el modelo y prompt configurados:
    ```bash
    python src/pipeline.py
    ```
