@@ -1,4 +1,4 @@
-# Análisis de Logs de auditd con LLM Local 🛡️🦙
+# Análisis de registros de auditd con LLM local: Evaluación de phi3:mini frente a herramientas nativas
 
 Trabajo Práctico Final - Sistemas Operativos y Redes II (Primer Semestre 2026) - Licenciatura en Sistemas, UNGS.
 
@@ -7,6 +7,7 @@ Este proyecto implementa un pipeline automatizado de procesamiento local para ev
 ## 🗂️ Estructura del Repositorio
 
 * `data/` → Datasets de los escenarios de prueba en formatos RAW y JSON, además de los registros de ruido.
+* `data/baseline/` → Baseline utilizado para la comparación.
 * `notebooks/` → Jupyter notebooks con el análisis de los resultados.
 * `results/prompt1` → Salidas del pipeline en formato CSV del prompt1.
 * `results/prompt2` → Salidas del pipeline en formato CSV del prompt2.
@@ -53,5 +54,6 @@ Para ejecutar este proyecto de forma local, es necesario contar con:
    python src/pipeline.py
    ```
    *(Nota: El script procesará los registros fila por fila para no saturar la ventana de contexto y exportará los resultados directamente a la carpeta results/prompt_utilizado).*
+---
 
 **Autor:** Tomás Sturtz
